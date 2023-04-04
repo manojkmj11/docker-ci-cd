@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./MicroservicesSolution.sln
     - name: Build
-      run: dotnet build --no-restore ./MicroservicesSolution
+      run: dotnet build --no-restore ./MicroservicesSolution.sln
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./MicroservicesSolution
+      run: dotnet test --no-build --verbosity normal ./MicroservicesSolution.sln
