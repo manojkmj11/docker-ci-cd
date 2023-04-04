@@ -4,11 +4,11 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["ManagementDNApi/ManagementDNApi.csproj", "ManagementDNApi/"]
-COPY ["ManagementBusinessLogicLayer/ManagementBusinessLogicLayer.csproj", "ManagementBusinessLogicLayer/"]
-COPY ["ManagementDataLayer/ManagementDataLayer.csproj", "ManagementDataLayer/"]
-COPY ["ManagementNurseModels/ManagementNurseModels.csproj", "ManagementNurseModels/"]
-RUN dotnet restore "ManagementDNApi/ManagementDNApi.csproj"
+COPY ["ManagementSolution/ManagementDNApi/ManagementDNApi.csproj", "ManagementDNApi/"]
+COPY ["ManagementSolution/ManagementBusinessLogicLayer/ManagementBusinessLogicLayer.csproj", "ManagementBusinessLogicLayer/"]
+COPY ["ManagementSolution/ManagementDataLayer/ManagementDataLayer.csproj", "ManagementDataLayer/"]
+COPY ["ManagementSolution/ManagementNurseModels/ManagementNurseModels.csproj", "ManagementNurseModels/"]
+RUN dotnet restore "ManagementSolution/ManagementDNApi/ManagementDNApi.csproj"
 COPY . .
 WORKDIR "/src/ManagementDNApi"
 RUN dotnet build "ManagementDNApi.csproj" -c Release -o /app/build
