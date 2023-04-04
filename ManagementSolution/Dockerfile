@@ -10,11 +10,11 @@ COPY ["ManagementSolution/ManagementDataLayer/ManagementDataLayer.csproj", "Mana
 COPY ["ManagementSolution/ManagementNurseModels/ManagementNurseModels.csproj", "ManagementNurseModels/"]
 RUN dotnet restore "ManagementDNApi/ManagementDNApi.csproj"
 COPY . .
-WORKDIR "/src/ManagementDNApi"
-RUN dotnet build "ManagementDNApi.csproj" -c Release -o /app/build
+WORKDIR "/src/ManagementSolution/ManagementDNApi"
+RUN dotnet build "ManagementSolution/ManagementDNApi.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ManagementDNApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "ManagementSolution/ManagementDNApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
