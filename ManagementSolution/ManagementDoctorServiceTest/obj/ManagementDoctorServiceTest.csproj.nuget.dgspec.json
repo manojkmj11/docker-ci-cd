@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj": {}
+    "M:\\docker-ci-cd\\ManagementSolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj": {}
   },
   "projects": {
-    "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
+    "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj",
+        "projectUniqueName": "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj",
         "projectName": "ManagementBusinessLogicLayer",
-        "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj",
+        "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\obj\\",
+        "outputPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
-                "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
+              "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
+                "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
               },
-              "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseModels\\ManagementNurseModels.csproj": {
-                "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseModels\\ManagementNurseModels.csproj"
+              "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj": {
+                "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
+    "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj",
+        "projectUniqueName": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj",
         "projectName": "ManagementDataLayer",
-        "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj",
+        "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj",
         "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\obj\\",
+        "outputPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,14 +139,14 @@
         }
       }
     },
-    "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\ManagementDNApi.csproj": {
+    "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\ManagementDNApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\ManagementDNApi.csproj",
+        "projectUniqueName": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\ManagementDNApi.csproj",
         "projectName": "ManagementDNApi",
-        "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\ManagementDNApi.csproj",
+        "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\ManagementDNApi.csproj",
         "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\obj\\",
+        "outputPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,11 +163,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
-                "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj"
+              "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
+                "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj"
               },
-              "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
-                "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
+              "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
+                "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
               }
             }
           }
@@ -220,14 +220,14 @@
         }
       }
     },
-    "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj": {
+    "M:\\docker-ci-cd\\ManagementSolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj",
+        "projectUniqueName": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj",
         "projectName": "ManagementDoctorServiceTest",
-        "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj",
+        "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDoctorServiceTest\\ManagementDoctorServiceTest.csproj",
         "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDoctorServiceTest\\obj\\",
+        "outputPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDoctorServiceTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,14 +244,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
-                "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj"
+              "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
+                "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj"
               },
-              "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
-                "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
+              "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
+                "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
               },
-              "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\ManagementDNApi.csproj": {
-                "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\ManagementDNApi.csproj"
+              "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\ManagementDNApi.csproj": {
+                "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\ManagementDNApi.csproj"
               }
             }
           }
@@ -319,14 +319,14 @@
         }
       }
     },
-    "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseModels\\ManagementNurseModels.csproj": {
+    "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseModels\\ManagementNurseModels.csproj",
+        "projectUniqueName": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj",
         "projectName": "ManagementNurseModels",
-        "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseModels\\ManagementNurseModels.csproj",
+        "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\ManagementNurseModels.csproj",
         "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseModels\\obj\\",
+        "outputPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",

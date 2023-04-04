@@ -9146,11 +9146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseServiceTest\\ManagementNurseServiceTest.csproj",
+      "projectUniqueName": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseServiceTest\\ManagementNurseServiceTest.csproj",
       "projectName": "ManagementNurseServiceTest",
-      "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseServiceTest\\ManagementNurseServiceTest.csproj",
+      "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseServiceTest\\ManagementNurseServiceTest.csproj",
       "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-      "outputPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseServiceTest\\obj\\",
+      "outputPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseServiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9167,14 +9167,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
-              "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj"
+            "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj": {
+              "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementBusinessLogicLayer\\ManagementBusinessLogicLayer.csproj"
             },
-            "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
-              "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
+            "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj": {
+              "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDataLayer\\ManagementDataLayer.csproj"
             },
-            "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\ManagementDNApi.csproj": {
-              "projectPath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementDNApi\\ManagementDNApi.csproj"
+            "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\ManagementDNApi.csproj": {
+              "projectPath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementDNApi\\ManagementDNApi.csproj"
             }
           }
         }

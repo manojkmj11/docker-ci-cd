@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nB3I6Dq3pzDNrdiZadBpvtUCiVzb+M7f5hzya+uPiXagY2iHZBc25wtmRmlS6pC53njvyep8OI9sMsonn5KoFA==",
+  "dgSpecHash": "F/w4KA/xoe35rDenrGlIzd4uU2nJMQzed5E4vzPtkmL1Lmd6mYh9Byd4riKFYcGofduuoU/Y6qDtMFvn+UB08g==",
   "success": true,
-  "projectFilePath": "M:\\MicroservicesSolution\\ManagementAPISolution\\ManagementNurseServiceTest\\ManagementNurseServiceTest.csproj",
+  "projectFilePath": "M:\\docker-ci-cd\\ManagementSolution\\ManagementNurseServiceTest\\ManagementNurseServiceTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manoj\\.nuget\\packages\\autofixture\\4.18.0\\autofixture.4.18.0.nupkg.sha512",
     "C:\\Users\\manoj\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
