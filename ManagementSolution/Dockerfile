@@ -8,7 +8,7 @@ COPY ["ManagementSolution/ManagementDNApi/ManagementDNApi.csproj", "ManagementDN
 COPY ["ManagementSolution/ManagementBusinessLogicLayer/ManagementBusinessLogicLayer.csproj", "ManagementBusinessLogicLayer/"]
 COPY ["ManagementSolution/ManagementDataLayer/ManagementDataLayer.csproj", "ManagementDataLayer/"]
 COPY ["ManagementSolution/ManagementNurseModels/ManagementNurseModels.csproj", "ManagementNurseModels/"]
-RUN dotnet restore "ManagementSolution/ManagementDNApi/ManagementDNApi.csproj"
+RUN dotnet restore "ManagementDNApi/ManagementDNApi.csproj"
 COPY . .
 WORKDIR "/src/ManagementDNApi"
 RUN dotnet build "ManagementDNApi.csproj" -c Release -o /app/build
